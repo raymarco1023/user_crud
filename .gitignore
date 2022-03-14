@@ -1,0 +1,4 @@
+venv/*
+# the * maps to everything
+*__pycache__*
+# this will ignore any pycache folders created at any level
