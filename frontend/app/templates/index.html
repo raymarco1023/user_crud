@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %} 
+
+{% block content %} 
+    <h1>Users and their vehicle report</h1>
+    <ul>
+        {% for result in results["report_data"] %} 
+        <li>result</li>
+        {% endfor %} 
+    </ul>
+{% endblock content %} 
