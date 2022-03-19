@@ -19,7 +19,7 @@ def create_user():
     SAMPLE_USER["hobbies"] = hobbies
     response = requests.post(URL, json=SAMPLE_USER)
     if response.status_code == 204:
-        print("USer created.")
+        print("User created.")
     else:
         print("Error while attempting to create user.")
 
